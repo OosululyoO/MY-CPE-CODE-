@@ -12,7 +12,7 @@ long long int sumfunc(long long int a)
         sum += temp;
         j = i % 10;
         sum += (1 + j) * j / 2;
-        i = i / 10;
+        i /= 10;
     }
     return sum;
 }
